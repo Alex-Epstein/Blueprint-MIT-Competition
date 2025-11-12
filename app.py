@@ -24,7 +24,7 @@ def submit():
     user_in = entry.get() #gets entry text
     print(user_in)
     type = clicked.get()
-    chatgpt_api_call.parse(user_in)
+    #chatgpt_api_call.parse(user_in)
     if type == "Free fall":
         free_fall_sim.main()
     elif type == "Orbit":
